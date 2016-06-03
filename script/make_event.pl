@@ -35,9 +35,9 @@ unless (defined $place) {
     );
 }
 
-my $group = first { $_->name eq 'gotanda-pm' } $session->fetch_organized_groups();
+my $group = first { $_->name eq 'mackerel-ug' } $session->fetch_organized_groups();
 unless (defined $group) {
-    die "Cannot find gotanda-pm group.";
+    die "Cannot find mackerel-ug group.";
 }
 
 my $connpass_event = $event->connpass_event_id ? $session->fetch_event_by_id($event->connpass_event_id) : undef;
@@ -47,7 +47,7 @@ if ($connpass_event->title ne $event->title) {
 }
 $connpass_event = $connpass_event->set_group($group)->set_place($place)->edit(
     hashtag           => $event->hashtag,
-    owner_text        => 'Gotanda.pm',
+    owner_text        => 'Mackerel Users Group',
     sub_title         => $event->sub_title,
     open_end_datetime => $event->open_at->strftime('%Y-%m-%dT%H:%M:%S'),
     start_datetime    => $event->start_at->strftime('%Y-%m-%dT%H:%M:%S'),
@@ -80,7 +80,7 @@ $connpass_event = $connpass_event->refetch()->update_waitlist_count(
 );
 
 if (!$event->connpass_event_id) {
-    my @user = map { $session->search_users_by_name($_) } qw/karupanerura papix/;
+    my @user = map { $session->search_users_by_name($_) } qw/karupanerura papix buty4649 matsukena/;
     for my $user (@user) {
         $connpass_event->add_owner($user);
     }

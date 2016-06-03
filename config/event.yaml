@@ -1,41 +1,41 @@
 ---
 event:
-  id: 9
-  url: http://gotanda-pm.connpass.com/event/32535/
+  id: 1
+  url: http://connpass.com/event/33284/
   thema:
-    title: TODO
+    title: Mackerelをサーバ監視/管理"以外"に使う
     description: |-
-      TODO
-      ですよ
+      Mackerelの変な使い方の事例を自慢してみましょう。
+      もちろん、正しい使い方の紹介も大歓迎です！
   venue:
-    name: 株式会社モバイルファクトリー
-    address: 東京都品川区東五反田1-24-2 (東五反田1丁目ビル8階)
-    url: http://www.mobilefactory.jp/corporate/access
-    capacity: 40
-  date: 2016-06-22
+    name: 株式会社エウレカ
+    address: 東京都港区南青山2-27-25 (オリックス南青山ビル6F)
+    url: http://eure.jp/about/#access_map
+    capacity: 50
+  date: 2016-06-14
   open_at: 19:00
   start_at: 19:30
   timetable:
     - type: announce
       minutes: 10
-    - type: talk
-      minutes: 20
+    - type: lt
+      minutes: 5
       speaker: undef
       detail: undef
-    - type: talk
-      minutes: 20
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
       speaker: undef
       detail: undef
     - type: break
       minutes: 10
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
     - type: lt
       minutes: 5
       speaker: undef
@@ -58,5 +58,5 @@ event:
     # - name: ~
     #   url: ~
   party:
-    venue: ぼたん
+    venue: 会場
     fee: 2000

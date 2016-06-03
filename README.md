@@ -1,6 +1,6 @@
 # Mother
 
-Gotanda.pmのイベント開催の雑務をやってくれる機械。  
+Mackerel Users Groupのイベント開催の雑務をやってくれる機械。  
 最終的には実家に帰ったときのお母さんみたいによしなにしてくれる。
 
 ## Setup
@@ -17,7 +17,7 @@ Connpassのユーザー情報を保存する。
 Config::Identityを使っているのでgpgで暗号化しておくことが可能。  
 `gpg2 -ea ~/.connpass && mv ~/.connpass{.asc,}` などとするといい。  
 
-Connpassのユーザーはgotanda-pm-robotを利用する。  
+Connpassのユーザーはmackerel-ug-robotを利用する。  
 パスワードは口伝なので誰かに訊きましょう。
 
 ### config/event.yaml

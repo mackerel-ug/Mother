@@ -1,10 +1,8 @@
 tags: conference
 ---
-# Gotanda.pm #<: $event.id :> を開催します
+# Mackerel Users Group Meeting Vol.<: $event.id :> を開催します
 
-第<: $event.id :>回目のTech Conferenceを開催します。
-
-スーパーゆるーい感じで開催する予定です。
+第<: $event.id :>回目のMeetingを開催します。
 
 奮ってご応募下さい！
 
