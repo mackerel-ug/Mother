@@ -11,7 +11,7 @@ event:
     name: 株式会社エウレカ
     address: 東京都港区南青山2-27-25 (オリックス南青山ビル6F)
     url: http://eure.jp/about/#access_map
-    capacity: 50
+    capacity: 50 # キツキツで100、余裕持って80
   date: 2016-06-14
   open_at: 19:00
   start_at: 19:30
