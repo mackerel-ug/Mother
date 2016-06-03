@@ -1,7 +1,7 @@
 ---
 event:
   id: 1
-  url: http://connpass.com/event/33284/
+  url: http://mackerel-ug.connpass.com/event/33287/
   thema:
     title: Mackerelをサーバ監視/管理"以外"に使う
     description: |-
