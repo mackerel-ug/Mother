@@ -1,6 +1,6 @@
 tags: conference
 ---
-# Mackerel Users Group Meeting Vol.<: $event.id :> を開催します
+# Mackerel User Group Meeting Vol.<: $event.id :> を開催します
 
 第<: $event.id :>回目のMeetingを開催します。
 

@@ -47,7 +47,7 @@ if ($connpass_event->title ne $event->title) {
 }
 $connpass_event = $connpass_event->set_group($group)->set_place($place)->edit(
     hashtag           => $event->hashtag,
-    owner_text        => 'Mackerel Users Group',
+    owner_text        => 'Mackerel User Group',
     sub_title         => $event->sub_title,
     open_end_datetime => $event->open_at->strftime('%Y-%m-%dT%H:%M:%S'),
     start_datetime    => $event->start_at->strftime('%Y-%m-%dT%H:%M:%S'),

@@ -30,7 +30,7 @@ sub id        { shift->{config}->{id}  }
 sub url       { shift->{config}->{url} }
 sub hashtag   { 'mackerelio' }
 sub sub_title { 'http://mackerel-ug.hatenablog.com/' }
-sub title     { sprintf 'Mackerel Users Group Meeting Vol.%d', shift->id }
+sub title     { sprintf 'Mackerel User Group Meeting Vol.%d', shift->id }
 sub thema     { Mother::Event::Thema->new(shift->{config}->{thema}) }
 sub party     { Mother::Event::Party->new(shift->{config}->{party}) }
 sub venue     { Mother::Event::Venue->new(shift->{config}->{venue}) }
