@@ -20,16 +20,16 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: buty4649
+      detail: Mackereel UGの説明
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: hoto17296
+      detail: Mackerel でおうちハック
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: papix
+      detail: Mackerelでpapixを監視する (仮)
     - type: lt
       minutes: 5
       speaker: undef
