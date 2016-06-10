@@ -32,14 +32,14 @@ event:
       detail: Mackerelでpapixを監視する (仮)
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: a-know
+      detail: 個人で Mackerel standard プランを使い倒したい話（仮）
     - type: break
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: karupanerura
+      detail: go-check-pluginsに送ったpull-reqの紹介
     - type: lt
       minutes: 5
       speaker: undef
@@ -54,9 +54,11 @@ event:
       detail: undef
     - type: party
       minutes: 120
-  sponsors: []
-    # - name: ~
-    #   url: ~
+  sponsors:
+    - name: 株式会社はてな
+      url: http://hatenacorp.jp/
+    - name: 株式会社エウレカ
+      url: http://eure.jp/
   party:
     venue: 会場
-    fee: 3000
+    fee: 0
