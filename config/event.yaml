@@ -42,8 +42,8 @@ event:
       detail: go-check-pluginsに送ったpull-reqの紹介
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: sion_cojp
+      detail: MackerelでGET WILD
     - type: lt
       minutes: 5
       speaker: undef
