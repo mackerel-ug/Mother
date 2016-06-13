@@ -21,7 +21,7 @@ event:
     - type: lt
       minutes: 5
       speaker: buty4649
-      detail: Mackereel UGの説明
+      detail: Mackerel UGの説明
     - type: lt
       minutes: 5
       speaker: hoto17296
