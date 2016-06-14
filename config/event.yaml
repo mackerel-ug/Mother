@@ -46,8 +46,8 @@ event:
       detail: MackerelでGET WILD
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: hanazuki
+      detail: 家庭用ルータの監視をしてるはなし
     - type: lt
       minutes: 5
       speaker: undef
