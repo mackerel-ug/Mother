@@ -13,7 +13,7 @@ event:
     name: CAMPFIRE, Inc.
     address: 東京都渋谷区渋谷2丁目22-3 (渋谷東口ビル5F)
     url: http://www.campfire.co.jp/about.html
-    capacity: 60 # キツキツで100、余裕持って80
+    capacity: 70 # キツキツで100、余裕持って80くらい？
   date: 2017-08-23
   open_at: 19:00
   start_at: 19:30
@@ -55,7 +55,7 @@ event:
       speaker: nil
       detail: nil
     - type: party
-      minutes: 120
+      minutes: 90
   party:
     venue: 会場
     fee: 3000
