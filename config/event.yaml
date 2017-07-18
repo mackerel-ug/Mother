@@ -1,18 +1,20 @@
 ---
 event:
-  id: 1
-  url: http://mackerel-ug.connpass.com/event/33287/
+  id: 2
+  url: ~
   thema:
-    title: Mackerelをサーバ監視/管理"以外"に使う
+    title: XaaS meets Mackerel
     description: |-
-      Mackerelの変な使い方の事例を自慢してみましょう。
-      もちろん、正しい使い方の紹介も大歓迎です！
+      AWS/GCP/AzureなどのXaaSの採用事例が増えてきているなかで知見を交換したいというニーズが高まっているかと思います。
+      MackerelもAWS Integrationが提供されており、最近はAzure Integrationも提供されました。Mackerelと組み合わせた事例について気になっている方も多いのではないでしょうか。
+      今回のMackerel User Groupでは、XaaSとMackerelにフォーカスしてカジュアルにLTなどをしつつそれを肴にざっくばらんに話ができる場にできるといいなと思っています。
+      5分間なので話のネタづくりにという気持ちで気軽に話してみましょう！
   venue:
-    name: 株式会社エウレカ
-    address: 東京都港区南青山2-27-25 (オリックス南青山ビル6F)
-    url: http://eure.jp/about/#access_map
-    capacity: 50 # キツキツで100、余裕持って80
-  date: 2016-06-14
+    name: CAMPFIRE, Inc.
+    address: 東京都渋谷区渋谷2丁目22-3 (渋谷東口ビル5F)
+    url: http://www.campfire.co.jp/about.html
+    capacity: 60 # キツキツで100、余裕持って80
+  date: 2017-08-23
   open_at: 19:00
   start_at: 19:30
   timetable:
@@ -20,45 +22,40 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: buty4649
-      detail: Mackerel UGの説明
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: hoto17296
-      detail: Mackerel でおうちハック
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: papix
-      detail: Mackerelでpapixを監視する (仮)
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: a-know
-      detail: 個人で Mackerel standard プランを使い倒したい話（仮）
+      speaker: nil
+      detail: nil
     - type: break
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: karupanerura
-      detail: go-check-pluginsに送ったpull-reqの紹介
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: sion_cojp
-      detail: MackerelでGET WILD
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: hanazuki
-      detail: 家庭用ルータの監視をしてるはなし
+      speaker: nil
+      detail: nil
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: nil
+      detail: nil
     - type: party
       minutes: 120
-  sponsors:
-    - name: 株式会社はてな
-      url: http://hatenacorp.jp/
-    - name: 株式会社エウレカ
-      url: http://eure.jp/
   party:
     venue: 会場
-    fee: 0
+    fee: 3000
