@@ -22,16 +22,16 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: nil
-      detail: nil
+      speaker: soudai1025
+      detail: サーバレスで行うサービスメトリック
     - type: lt
       minutes: 5
-      speaker: nil
-      detail: nil
+      speaker: t-sugai
+      detail: AWS上に構築したサービスをMackerelで監視している話について何か
     - type: lt
       minutes: 5
-      speaker: nil
-      detail: nil
+      speaker: karupanerura
+      detail: mkr-check-self というコマンドを書いた、あるいはmackerel-agentのサブセットを作る方法
     - type: lt
       minutes: 5
       speaker: nil
